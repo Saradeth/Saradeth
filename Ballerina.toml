@@ -1,0 +1,9 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.3.1"
+  name = "automation01"
+  org = "saradeth"
+  version = "0.1.0"
+
