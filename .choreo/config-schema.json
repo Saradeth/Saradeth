@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "saradeth": {
+      "type": "object",
+      "properties": {
+        "automation01": {
+          "type": "object",
+          "properties": {
+            "config": {
+              "type": "object",
+              "properties": {
+                "verificationToken": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "verificationToken"
+              ],
+              "name": "ballerinax/trigger.slack:0.7.1:ListenerConfig",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "config"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
